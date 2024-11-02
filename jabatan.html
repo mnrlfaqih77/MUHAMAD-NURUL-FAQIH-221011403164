@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Jabatan</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .sidebar {
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #f8f9fa;
+      padding-top: 60px;
+      width: 250px;
+    }
+    .sidebar a {
+      padding: 15px;
+      text-decoration: none;
+      font-size: 18px;
+      color: #333;
+      display: block;
+    }
+    .sidebar a:hover {
+      background-color: #ddd;
+      color: #000;
+    }
+    .content {
+      margin-left: 260px;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="sidebar">
+    <h4 class="text-center">Menu Navigasi</h4>
+    <a href="index.html">Dashboard</a>
+    <a href="karyawan.html">Data Karyawan</a>
+    <a href="jabatan.html">Data Jabatan</a>
+    <a href="divisi.html">Data Divisi</a>
+  </div>
+
+  <div class="content">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Data Jabatan</a>
+    </nav>
+
+    <div class="container mt-5">
+      <h2>Data Jabatan</h2>
+      <form>
+        <div class="form-group">
+          <label for="nama_jabatan">Nama Jabatan:</label>
+          <input type="text" class="form-control" id="nama_jabatan" placeholder="Masukkan nama jabatan">
+        </div>
+        <button type="submit" class="btn btn-primary">Simpan</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
